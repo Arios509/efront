@@ -1,0 +1,53 @@
+<div class="card">
+  <div class="card-header">
+    <h4> User profile</h4>
+    <button class="btn btn-sm btn-primary" (click)="editProfile()">Edit</button>
+  </div>
+  <div class="card-content">
+    <table class="table">
+      <thead>
+        <tr>
+          <td>#</td>
+          <td>Detail</td>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Username</td>
+          <td>{{detail.username}}</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>{{detail.email}}</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>{{detail.phone}}</td>
+        </tr>
+        <tr>
+          <td>Skillsets</td>
+          <td>
+            <ng-container *ngFor="let skill of detail.skillset">
+
+              <span class="label label-success">{{skill.type}} 
+                <span *ngIf="skill.version">-</span>  
+                 {{skill.version}}</span>
+
+            </ng-container>
+          </td>
+        </tr>
+        <tr>
+          <td>Hobby</td>
+          <td>
+            <ng-container *ngFor="let hobby of detail.hobby">
+              <span class="label label-success">{{hobby.type}} </span>
+            </ng-container>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+</div>
