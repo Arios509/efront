@@ -9,7 +9,6 @@
 
 // Live
 export const environment = {
-  production: false,
   API_SERVER: 'https://etiqaback.herokuapp.com'
 };
 
