@@ -43,20 +43,20 @@ Some explanation on how to use this systems
 
 Home page - Pretty simple homepage, at this page you can see the list of the user that added to the system.
 
-[!home](https://imgur.com/XjZQ2qZ)
+![home](https://imgur.com/XjZQ2qZ)
 
 Click the ```Create``` button, then you will able to direct to create a new user.
-[!home](https://imgur.com/5zhslvw)
+![create](https://imgur.com/5zhslvw)
 
 Inside the Create page, agens are able to write the basic info, and add multiple skillsets or hobbys in case the user have multiple skillsets and hobbys need to add in.
 
 After submit, then will direct back the user list page.
 
 At the user list page, click on the username part, then will able to go into the detail page for the user. In this page, you will able to see more detail about the user. And also able to edit the user info.
-[!home](https://imgur.com/pGASqMH)
+![detail](https://imgur.com/pGASqMH)
 
 Inside the edit page, all the previous information will auto fill into the inputs part.
-[!home](https://imgur.com/W5fuyHI)
+![edit](https://imgur.com/W5fuyHI)
 
 
 ## Deployment
