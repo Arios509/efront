@@ -1,27 +1,61 @@
-# FrontendAngular
+# Project User management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+Create one system and let agent create for the record for potential employee
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run the command below and it will install for the system need.
 
-## Build
+```
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Run for development - frontend
 
-## Running unit tests
+Run the command then open http://localhost:4200, will direct user to homepage.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm start
+```
 
-## Running end-to-end tests
+For the development testing, must run together with the backend-node, else the backend server will no have the response.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Run for development - backend
 
-## Further help
+Run the command and the server will start in http://localhost:3000
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+npm start
+```
+
+After get the message, ```Connected db```, which mean the server is running.
+
+### Features
+
+Some explanation on how to use this systems
+
+Home page - Pretty simple homepage, at this page you can see the list of the user that added to the system.
+
+[!home](https://imgur.com/XjZQ2qZ)
+
+Click the ```Create``` button, then you will able to direct to create a new user.
+[!home](https://imgur.com/5zhslvw)
+
+Inside the Create page, agens are able to write the basic info, and add multiple skillsets or hobbys in case the user have multiple skillsets and hobbys need to add in.
+
+After submit, then will direct back the user list page.
+
+At the user list page, click on the username part, then will able to go into the detail page for the user. In this page, you will able to see more detail about the user. And also able to edit the user info.
+[!home](https://imgur.com/pGASqMH)
+
+Inside the edit page, all the previous information will auto fill into the inputs part.
+[!home](https://imgur.com/W5fuyHI)
+
+
+## Deployment
+
+This project is hosted in the github page, and it will auto deploy using the deploy.yml under .github/workflows, when push to production, this will auto build and bring the files generated under dist/ in the master branch.

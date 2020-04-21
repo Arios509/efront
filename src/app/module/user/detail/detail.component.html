@@ -1,7 +1,11 @@
 <div class="card">
   <div class="card-header">
     <h4> User profile</h4>
-    <button class="btn btn-sm btn-primary" (click)="editProfile()">Edit</button>
+    <div class="">
+      <button class="btn btn-sm btn-primary mr-1" (click)="editProfile()">Edit</button>
+      <button class="btn btn-sm btn-danger" (click)="deleteUser()">Delete</button>
+    </div>
+  
   </div>
   <div class="card-content">
     <table class="table">
