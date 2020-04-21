@@ -1,6 +1,9 @@
 # Project User management
 
-Create one system and let agent create for the record for potential employee
+Create one system and let agent create for the record for potential employee. System is build into separate part.
+For the Frontend, using Angular 9 to build.
+For the Backend, using NodeJs and MongoDB to build. As for the MongoDB is MongoDB atlas, the backend project is set to private.
+
 
 ## Getting Started
 
